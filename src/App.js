@@ -5,11 +5,11 @@ import Portfolio from "./components/portfolio/Portfolio";
 import AboutMe from "./components/about_me/AboutMe";
 // libs
 import { Route, Switch } from "react-router-dom";
-import "./App.module.scss";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app_container}>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/portfolio" component={Portfolio} />

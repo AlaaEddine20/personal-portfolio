@@ -1,8 +1,9 @@
 import React from "react";
 // components
 import Home from "./components/home/Home";
-import Portfolio from "./components/portfolio/Portfolio";
+import Skills from "./components/skills/Skills";
 import AboutMe from "./components/about_me/AboutMe";
+import Portfolio from "./components/portfolio/Portfolio";
 // libs
 import { Route, Switch } from "react-router-dom";
 import styles from "./App.module.scss";
@@ -12,8 +13,9 @@ function App() {
     <div className={styles.app_container}>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/skills" component={Skills} />
         <Route path="/about" component={AboutMe} />
+        <Route path="/portfolio" component={Portfolio} />
       </Switch>
     </div>
   );

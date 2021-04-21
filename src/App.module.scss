@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
 }
 
 .app_container {
@@ -10,15 +12,15 @@
   background-color: #111;
 }
 
-.app_container:before {
-  content: "MERN";
-  font-family: "Orbitron", sans-serif;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 16em;
-  font-weight: 700;
-  color: transparent;
-  -webkit-text-stroke: 1px #555;
-}
+// .app_container:before {
+//   content: "MERN";
+//   font-family: "Orbitron", sans-serif;
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   font-size: 16em;
+//   font-weight: 700;
+//   color: transparent;
+//   -webkit-text-stroke: 1px #555;
+// }

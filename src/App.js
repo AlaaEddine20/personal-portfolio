@@ -7,10 +7,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 // libs
 import { Route, Switch } from "react-router-dom";
 import styles from "./App.module.scss";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className={styles.app_container}>
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/skills" component={Skills} />

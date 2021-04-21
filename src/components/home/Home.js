@@ -1,15 +1,14 @@
-import { Box, Typography } from "@material-ui/core";
 import React from "react";
 import styles from "./Styles.module.scss";
 
 const Home = () => {
   return (
-    <Box className={styles.home_container}>
-      <Typography variant="h3">
+    <div className={styles.home_container}>
+      <h1>
         {"<"} Hi, I'm Alaa Eddine {"/>"}
-      </Typography>
-      <Typography variant="h4">A Full stack developer</Typography>
-    </Box>
+      </h1>
+      <h1>A Full stack developer</h1>
+    </div>
   );
 };
 

@@ -6,12 +6,12 @@ import AboutMe from "./components/about_me/AboutMe";
 import Portfolio from "./components/portfolio/Portfolio";
 // libs
 import { Route, Switch } from "react-router-dom";
-import styles from "./App.module.scss";
+import "./App.css";
 import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div className={styles.app_container}>
+    <>
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" component={AboutMe} />
         <Route path="/portfolio" component={Portfolio} />
       </Switch>
-    </div>
+    </>
   );
 }
 

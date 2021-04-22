@@ -8,12 +8,13 @@ $primary: #e4e4e4;
   justify-content: space-between;
   align-items: center;
   padding: 0 10rem;
+  z-index: 1;
 
   .logo_container {
     h1 {
       color: $primary;
       font-family: "Satisfy", cursive;
-      font-size: 40px;
+      font-size: 50px;
     }
 
     span {
@@ -27,8 +28,10 @@ $primary: #e4e4e4;
       display: flex;
 
       .nav_btn {
-        font-size: 28px;
-        font-weight: 600;
+        font-size: 45px;
+        font-weight: 700;
+        font-family: "Signika", sans-serif;
+        letter-spacing: 1px;
         color: $primary;
         display: inline-block;
         position: relative;

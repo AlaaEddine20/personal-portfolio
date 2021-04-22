@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import classnames from "classnames";
+import { Routes } from "./Routes";
 import styles from "./Styles.module.scss";
 
 const Header = () => {
@@ -15,15 +15,11 @@ const Header = () => {
       </div>
       <div className={styles.navbar_container}>
         <div className={styles.navlinks_wrapper}>
-          <Link className={styles.nav_btn} to="/about">
-            <span className={styles.hover}>About me</span>
-          </Link>
-          <Link className={styles.nav_btn} to="skills">
-            <span className={styles.hover}>Skills</span>
-          </Link>
-          <Link className={styles.nav_btn} to="/portfolio">
-            <span className={styles.hover}>Portfolio</span>
-          </Link>
+          {Routes.map((route) => (
+            <Link key={route.id} className={styles.nav_btn} to={route.path}>
+              <span className={styles.hover}>{route.pageName}</span>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

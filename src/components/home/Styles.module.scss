@@ -1,4 +1,4 @@
-$primary: #b3b1b1;
+$primary: #f1f0f0;
 
 .home_container {
   width: 100%;
@@ -10,12 +10,11 @@ $primary: #b3b1b1;
 
   .text_wrapper {
     width: 100%;
-    height: 100%;
+    height: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // margin-top: 8px;
     margin: 10px 10px;
 
     h2 {
@@ -30,6 +29,56 @@ $primary: #b3b1b1;
 
       span {
         color: $primary;
+        mix-blend-mode: multiply;
+        z-index: 1;
+      }
+
+      .animated_hi {
+        animation: animateHi 6s linear infinite;
+      }
+
+      @keyframes animateHi {
+        0%,
+        5%,
+        10.1%,
+        15.1%,
+        25.1%,
+        45%,
+        70.1%,
+        90%,
+        100% {
+          color: #151515;
+          text-shadow: 0 0 0 #151515;
+        }
+        5.1%,
+        10%,
+        15.2%,
+        25%,
+        45.1%,
+        70%,
+        90.1%,
+        95% {
+          color: $primary;
+          text-shadow: 0 0 10px #4cc9f0, 0 0 20px #4cc9f0, 0 0 60px #4cc9f0,
+            0 0 80px #4cc9f0, 0 0 100px #4cc9f0;
+        }
+      }
+
+      .animated {
+        animation: animate 5s linear infinite;
+        // z-index: 2;
+      }
+
+      @keyframes animate {
+        0% {
+          color: #151515;
+          text-shadow: 0 0 0 #151515;
+        }
+        100% {
+          color: $primary;
+          text-shadow: 0 0 10px #fa444c, 0 0 20px #fa444c, 0 0 60px #fa444c,
+            0 0 80px #fa444c, 0 0 160px #fa444c;
+        }
       }
     }
   }

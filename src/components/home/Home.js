@@ -8,19 +8,19 @@ const Home = () => {
         <h2>pwhscws4d5wfrfshsw48d5aav3hjk</h2>
         <h2>ksv5echekjc2s5vkjuev5a25cveyn</h2>
         <h2>
-          rhx<span className={styles.animated_hi}>HI!</span>4<span>I</span>s
-          <span>AM</span>xcptrhxmsg46saacxc
+          r<span className={styles.animated_hi}>HI!</span>4<span>I</span>s
+          <span>AM</span>xcptrhxmsg46saacxcrt
         </h2>
         <h2>jaszsdvjas8sdv6dssdse3dssdse3</h2>
         <h2>
           sdah84omlh<span>ALAA</span>s<span>EDDINE</span>sr5A21sw
         </h2>
-        <h2>d8wtnerA8wqnvdp83s52ds83s52d83s52ds83s52d</h2>
+        <h2>8nvdp83s52ds83s52d83s52ds83s5</h2>
         <h2>
           25ewvks25e<span>A</span>a<span>FULL</span>2vk3ual8vamkl
         </h2>
         <h2>
-          wpo7ndswpohvkxs<span>S</span>Mrhvkx
+          wp7n3wpohvkxsvc<span>S</span>a7w
           <span className={styles.animated}>MERN</span>wrpqlx
         </h2>
         <h2>
